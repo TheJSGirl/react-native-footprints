@@ -5,6 +5,7 @@ import HomeScreen from './src/screens/HomeScreen';
 import ListScreen from './src/screens/ListScreen';
 import FlatListScreen from './src/screens/FlatListScreen';
 import ImageListScreen from './src/screens/ImageScreen';
+import CounterScreen from './src/screens/CouterScreen';
 
 const Stack = createStackNavigator();
 
@@ -16,6 +17,7 @@ function MyStack() {
         <Stack.Screen  name="ListScreen" component={ListScreen} />
         <Stack.Screen  name="FlatListScreen" component={FlatListScreen} />
         <Stack.Screen  name="ImageListScreen" component={ImageListScreen} />
+        <Stack.Screen  name="CounterScreen" component={CounterScreen} />
 
 
       </Stack.Navigator>

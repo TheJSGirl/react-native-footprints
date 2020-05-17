@@ -19,6 +19,11 @@ const HomeScreen =  ({navigation}) => {
             onPress={() => navigation.navigate('ImageListScreen')}
 
         />
+        <Button 
+            title="Go to Counter Page"
+            onPress={() => navigation.navigate('CounterScreen')}
+
+        />
         {/* <TouchableOpacity onPress={() => props.navigation.navigate('FlatListScreen')}>
             <Text>
                 Go to List Demo
